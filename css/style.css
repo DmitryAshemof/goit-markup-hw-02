@@ -1,11 +1,14 @@
-/* primari-text-color: #212121 */
-/* secondary-text-color: #757575 */
-/* accent-color: #2196F3 */
-/* white-color: #ffffff */
-/* background-color: #F5F5F5; */
+:root{
+ --primari-text-color: #212121; 
+ --secondary-text-color: #757575; 
+ --accent-color: #2196F3; 
+ --white-color: #ffffff; 
+ --background-color: #F5F5F5;
+}
+ 
 body{
     font-family:"Roboto","Raleway",sans-serif;
-    color: #212121;
+    color:var(--primari-text-color);
 }
 .link{
     text-decoration: none;
@@ -17,33 +20,105 @@ body{
 /* ----- header----- */
 .link-logo{
     font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
         letter-spacing: 0.03em;
-        color: #2196F3;
+        color: var(--accent-color);
 }
 .header-logo{
-    color: #212121;
+    color: var(--primari-text-color);
 }
 .header-link{
     font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.02em;
-        color: #212121;
+        color: var(--primari-text-color);
 }
 .header-link:hover,
 .header-link:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .feedback-tel{
     color: #757575;
 }
 .feedback-tel:hover,
 .feedback-tel:focus{
-    color: #2196F3
+    color: var(--accent-color);
+}
+
+/* -----hero----- */
+/* -----buttons----- */
+
+.section-list{
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;    
+        letter-spacing: 0.03em;   
+        color: var(--primari-text-color);
+}
+.section-btn:hover,
+.section-btn:focus{
+    color: var(--accent-color);
+}
+.btn{
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em; 
+        color: var(--white-color);
+        cursor: pointer;
+}
+.btn:hover,
+.btn:focus{
+    color: var(--white-color);
+}
+
+/* ------portfolio----- */
+
+.list-title{
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;  
+        letter-spacing: 0.06em;   
+        color: var(--primari-text-color);
+}
+.list-text{
+    font-family: 'Roboto';
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
+}
+
+/* -----footer----- */
+.footer{
+    background-color: #6b6565;
+}
+.contact-adress{
+    font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 1.71;  
+        letter-spacing: 0.03em;  
+        color: #FFFFFF;
+}
+.contact-mail{
+font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contact-adress:hover,
+.contact-adress:focus{
+    color: var(--accent-color);
+}
+.contact-mail:hover,
+.contact-mail:focus{
+    color: var(--accent-color);
 }
