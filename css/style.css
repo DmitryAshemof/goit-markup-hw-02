@@ -17,7 +17,7 @@ body{
     list-style: none;
 }
 
-/* ----- header----- */
+/* -----ШАПКА----- */
 .link-logo{
     font-family: 'Raleway';
         font-weight: 700;
@@ -49,8 +49,63 @@ body{
     color: var(--accent-color);
 }
 
-/* -----hero----- */
-/* -----buttons----- */
+/* -----ГЕРОЙ----- */
+/* -----переваги----- */
+.main-title{
+    font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--white-color);
+}
+.benefits-title{
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--primari-text-color);
+}
+.benefits-text{
+    font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
+}
+
+/* ------чим займаемося------ */
+
+.title{
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        color: var(--primari-text-color);
+}
+
+/* -----наша команда----- */
+.team-employee{
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        color: var(--primari-text-color);
+}
+.team-text{
+    font-family: 'Roboto';
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
+}
+
+/* -----кнопки----- */
 
 .section-list{
     font-family: 'Roboto';
@@ -70,15 +125,20 @@ body{
         font-size: 16px;
         line-height: 1.62;
         letter-spacing: 0.03em; 
-        color: var(--white-color);
+        color: var(--primari-text-color);
         cursor: pointer;
+        border-radius: 4px;
+        border: none;
 }
 .btn:hover,
 .btn:focus{
     color: var(--white-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
 }
 
-/* ------portfolio----- */
+/* ------портфолио----- */
 
 .list-title{
     font-family: 'Roboto';
@@ -95,30 +155,51 @@ body{
         letter-spacing: 0.03em;
         color: var(--secondary-text-color);
 }
+.list-link{
+border-radius: 4px;
+}
+.list-link:hover,
+.list-link:focus{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 
-/* -----footer----- */
+/* -----ФУТЕР----- */
 .footer{
     background-color: #6b6565;
 }
-.contact-adress{
+.address{
+    font-style: normal;
+}
+.contact-address{
     font-family: 'Roboto';
         font-size: 14px;
         line-height: 1.71;  
         letter-spacing: 0.03em;  
-        color: #FFFFFF;
+        color: var(--white-color);
 }
 .contact-mail{
-font-family: 'Roboto';
+    font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-.contact-adress:hover,
-.contact-adress:focus{
+.contact-tel{
+    font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.contact-address:hover,
+.contact-address:focus{
     color: var(--accent-color);
 }
 .contact-mail:hover,
 .contact-mail:focus{
+    color: var(--accent-color);
+}
+.contact-tel:hover,
+.contact-tel:focus{
     color: var(--accent-color);
 }
