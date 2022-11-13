@@ -21,7 +21,6 @@ body{
 /* -----ШАПКА----- */
 .link-logo{
     font-family: 'Raleway';
-        font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
@@ -63,7 +62,6 @@ body{
 }
 .benefits-title{
     font-family: 'Roboto';
-        font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
@@ -82,7 +80,6 @@ body{
 
 .title{
     font-family: 'Roboto';
-        font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         letter-spacing: 0.03em;
@@ -143,7 +140,6 @@ body{
 
 .list-title{
     font-family: 'Roboto';
-        font-weight: 700;
         font-size: 18px;
         line-height: 2;  
         letter-spacing: 0.06em;   
@@ -198,4 +194,7 @@ body{
 .contact-tel:hover,
 .contact-tel:focus{
     color: var(--accent-color);
+}
+.address{
+    font-style: normal;
 }
