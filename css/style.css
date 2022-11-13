@@ -4,6 +4,7 @@
  --accent-color: #2196F3; 
  --white-color: #ffffff; 
  --background-color: #F5F5F5;
+ --second-background-color: #2F303A;
 }
  
 body{
@@ -19,6 +20,7 @@ body{
 }
 
 /* -----ШАПКА----- */
+
 .link-logo{
     font-family: 'Raleway';
         font-size: 26px;
@@ -42,7 +44,7 @@ body{
     color: var(--accent-color);
 }
 .feedback-tel{
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 .feedback-tel:hover,
 .feedback-tel:focus{
@@ -50,6 +52,11 @@ body{
 }
 
 /* -----ГЕРОЙ----- */
+
+.main-section{
+    background-color: var(--second-background-color);
+}
+
 /* -----переваги----- */
 .main-title{
     font-family: 'Roboto';
@@ -87,6 +94,7 @@ body{
 }
 
 /* -----наша команда----- */
+
 .team-employee{
     font-family: 'Roboto';
         font-weight: 500;
@@ -101,6 +109,14 @@ body{
         line-height: 1.18;
         letter-spacing: 0.03em;
         color: var(--secondary-text-color);
+}
+.employees{
+    background:var(--white-color);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+         0px 1px 1px rgba(0, 0, 0, 0.14),
+          0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        border: none;
 }
 
 /* -----кнопки----- */
@@ -161,7 +177,12 @@ body{
 }
 
 /* -----ФУТЕР----- */
-
+.footer{
+  background-color: var(--second-background-color);
+}
+.footer-logo{
+    color: var(--white-color);
+}
 .contact-address{
     font-family: 'Roboto';
         font-size: 14px;
