@@ -2,18 +2,22 @@ body{
     font-family: "Roboto", "Raleway", sans-serif;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    /* letter-spacing: 2%; */
     color: #2E2F42;
+    background-color: #FFFFFF;
 }
 ul{
     list-style-type: none;
 }
-a{
-    font-size: 12px;
+a{ 
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 4%;
     text-decoration: none;
+}
+a:hover,
+a:focus{
+    color: #404BBF;
 }
 h1 {
     font-size: 56px;
@@ -30,11 +34,20 @@ h3{
     font-size: 20px;
     letter-spacing: 2%;
 }
+p{
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4%;
+}
+
 /* HEADER */
 
 .logo{
     font-family: "Raleway";
+    font-size: 18px;
     font-weight: bold;
+    line-height: 21px;
+    letter-spacing: 3%;
     color: #2E2F42
 }
 
@@ -42,28 +55,24 @@ span{
     color: #4D5AE5;
 }
 
-.nav-list a{
-    font-size: 16px;
-    font-weight: 500;
+.nav-link{
     color: #2E2F42;
+    font-weight: 500;
 }
-.nav-list a:hover{
-    color: #404BBF;
-}
+
+
 .list-link:active{
    text-decoration: underline;
    color: #404BBF;
 }
-.address-list a{
+
+.address-link{
     font-size: 16px;
     color: #434455;
 }
-.address-list a:hover,
-.address-list a:focus{
-    color: #404BBF;
-}
 
   /* HERO */
+
  .hero{
     background-color: #2E2F42;
  }
@@ -77,6 +86,41 @@ span{
     background-color: #4D5AE5;
     cursor: pointer;
  }
- .button:hover{
+ .button:hover,
+ .button:focus{
     background-color: #404BBF;
+ }
+
+ /* ADVANTAGE */
+
+
+  /* OUR TEAM */
+
+.card{
+    background-color: #FFFFFF;
+}
+.team{
+    background-color: #F4F4FD;
+}
+
+  /* PORTFOLIO */
+
+
+
+ /* FOOTER */
+
+ .footer{
+    background-color: #2E2F42;
+ }
+
+ .footer-logo{
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    letter-spacing: 3%;
+    color: #F4F4FD;
+ }
+ .footer-text{
+    color: #F4F4FD;
  }
