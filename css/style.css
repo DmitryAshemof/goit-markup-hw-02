@@ -19,7 +19,7 @@ a:hover,
 a:focus{
     color: #404BBF;
 }
-h1 {
+/* h1 {
     font-size: 56px;   
     font-size: 3.5rem;
     line-height: 3.75rem;
@@ -39,7 +39,7 @@ h3{
     line-height: 1.2;
     letter-spacing: 0.02%;
     color: #2E2F42;     
-}
+} */
 p{
     font-size: 16px;
     line-height: 1.5rem;
@@ -50,10 +50,10 @@ p{
 /* HEADER */
 
 .logo{
-    font-family: "Raleway";
+    font-family: "Raleway",sans-serif;
     font-size: 18px;
     font-weight: bold;
-    line-height: 1.17px;
+    line-height: 1.17;
     letter-spacing: 0.03%;
     text-transform: uppercase;
     color: #4D5AE5
@@ -105,7 +105,7 @@ p{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04%;
+    letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
@@ -117,7 +117,7 @@ p{
 
  /* ADVANTAGE */
 
- .stratege{
+ .advantage-title{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5;
@@ -133,6 +133,11 @@ p{
 
 
   /* OUR TEAM */
+
+  .team{
+    background-color: #F4F4FD;
+    color: #2E2F42;
+  }
 
   .team-title{
     font-size: 36px;
@@ -193,10 +198,10 @@ p{
  }
 
  .footer-logo{
-    font-family: "Raleway";
+    font-family: "Raleway",sans-serif;
     font-size: 18px;
     font-weight: bold;
-    line-height: 1.17px;
+    line-height: 1.17;
     letter-spacing: 0.03%;
     text-transform: uppercase;
     color: #4D5AE5
