@@ -18,7 +18,9 @@ a:focus{
     color: #404BBF;
 }
 
-
+h2{
+    line-height: 1.11;
+}
 
 p{
     font-size: 16px;
@@ -150,10 +152,10 @@ p{
   /* PORTFOLIO */
 
 .portfolio-title{
-    text-align: center;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
   }
