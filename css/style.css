@@ -115,12 +115,17 @@ p{
 
   /* OUR TEAM */
 
+.team{
+    background-color: #F4F4FD;
+}
+
   .team-title{
     font-size: 36px;
-    line-height: 1.1rem;
+    line-height: 1.11rem;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: #2E2F42;
   }
 .name{
     text-align: center;
@@ -146,7 +151,6 @@ p{
 
 .portfolio-title{
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
