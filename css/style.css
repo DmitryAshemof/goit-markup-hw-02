@@ -1,9 +1,9 @@
 body{
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;
     /* letter-spacing: 2%; */
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
 }
 ul{
@@ -20,24 +20,31 @@ a:focus{
     color: #404BBF;
 }
 h1 {
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 2%;
+    font-size: 56px;   
+    font-size: 3.5rem;
+    line-height: 3.75rem;
+    letter-spacing: 0.07rem;
+    text-align: center;
     color: #FFFFFF;
 }
 h2{
     font-size: 36px;
-    letter-spacing: 2%;
+    line-height: 2.5rem;
+    letter-spacing: 0.045rem;
+    text-transform: capitalize;
 }
 h3{
-    font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02%;
+    color: #2E2F42;     
 }
 p{
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 4%;
+    font-size: 16px;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    color: #434455;
 }
 
 /* HEADER */
@@ -46,18 +53,21 @@ p{
     font-family: "Raleway";
     font-size: 18px;
     font-weight: bold;
-    line-height: 21px;
-    letter-spacing: 3%;
-    color: #2E2F42
+    line-height: 1.17px;
+    letter-spacing: 0.03%;
+    text-transform: uppercase;
+    color: #4D5AE5
 }
 
-span{
-    color: #4D5AE5;
+.web{
+    color: #2E2F42;
 }
 
 .nav-link{
-    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.02%;
     font-weight: 500;
+    color: #2E2F42;
 }
 
 
@@ -66,22 +76,36 @@ span{
    color: #404BBF;
 }
 
+.contacts{
+    font-style: normal;
+}
+
 .address-link{
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02%;
     color: #434455;
 }
 
   /* HERO */
+
+  .main-title{
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02%;
+  }
 
  .hero{
     background-color: #2E2F42;
  }
 
  .button{
+    font-family: "Roboto" sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 4%;
+    line-height: 1.5;
+    letter-spacing: 0.04%;
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
@@ -93,17 +117,72 @@ span{
 
  /* ADVANTAGE */
 
+ .stratege{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02%;
+    color: #2E2F42;
+ }
+ .advantage-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02%;
+    color: #434455;
+ }
+
 
   /* OUR TEAM */
 
-.card{
-    background-color: #FFFFFF;
+  .team-title{
+    font-size: 36px;
+    line-height: 2.5rem;
+    letter-spacing: 0.045%;
+    text-align: center;
+    text-transform: capitalize;
+  }
+.name{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02%;
+    color: #2E2F42;
 }
-.team{
-    background-color: #F4F4FD;
+.team-text{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02%;
+    color: #434455;
 }
 
   /* PORTFOLIO */
+
+  .portfolio-title{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02%;
+    text-transform: capitalize;
+    color: #2E2F42;
+  }
+
+.app{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02%;
+    color: #2E2F42;     
+    }
+
+.app-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02%;
+    color: #434455;
+  }
 
 
 
@@ -117,10 +196,16 @@ span{
     font-family: "Raleway";
     font-size: 18px;
     font-weight: bold;
-    line-height: 21px;
-    letter-spacing: 3%;
+    line-height: 1.17px;
+    letter-spacing: 0.03%;
+    text-transform: uppercase;
+    color: #4D5AE5
+ }
+ .studio{
     color: #F4F4FD;
  }
  .footer-text{
-    color: #F4F4FD;
+     line-height: 1.5;
+     letter-spacing: 0.02%;
+     color: #F4F4FD;
  }
