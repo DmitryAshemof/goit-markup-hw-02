@@ -11,32 +11,15 @@ ul{
 }
 a{ 
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 a:hover,
 a:focus{
     color: #404BBF;
 }
-/* h1 {
-    font-size: 56px;   
-    font-size: 3.5rem;
-    line-height: 3.75rem;
-    letter-spacing: 0.07rem;
-    text-align: center;
-    color: #FFFFFF;
-}
-h2{
-    font-size: 36px;
-    line-height: 2.5rem;
-    letter-spacing: 0.045rem;
-    text-transform: capitalize;
-}
-h3{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02%;
-    color: #2E2F42;     
-} */
+
+
+
 p{
     font-size: 16px;
     line-height: 1.5;
@@ -91,7 +74,7 @@ p{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+   color: #FFFFFF;
   }
 
  .hero{
@@ -132,11 +115,6 @@ p{
 
   /* OUR TEAM */
 
-  .team{
-    background-color: #F4F4FD;
-    color: #2E2F42;
-  }
-
   .team-title{
     font-size: 36px;
     line-height: 2.5rem;
@@ -160,6 +138,7 @@ p{
     color: #434455;
 }
 .card{
+    color: #2E2F42;
     background-color: #FFFFFF;
 }
 
@@ -205,7 +184,7 @@ p{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5
+    color: #4D5AE5;
  }
  .studio{
     color: #F4F4FD;
